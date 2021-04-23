@@ -9,8 +9,8 @@ on:
 jobs:
   build:
 
-    runs-on: mcr.microsoft.com/dotnet/runtime-deps:2.1-alpine3.13
-
+    runs-on: mcr.microsoft.com/dotnet/runtime-deps:2.1.815-alpine3.13
+                                                   
     steps:
     - uses: actions/checkout@v2
     - name: Setup .NET
