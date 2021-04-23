@@ -9,7 +9,7 @@ on:
 jobs:
   build:
 
-    runs-on: mcr.microsoft.com/dotnet/runtime-deps:2.1.815-alpine3.13
+    runs-on: mcr.microsoft.com/windows/servercore:1809-amd64
                                                    
     steps:
     - uses: actions/checkout@v2
