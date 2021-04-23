@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Users", "Users\Users.csproj", "{D4849B43-CF7F-430E-9B27-3B1590A92028}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6E3A2075-AF9B-42A1-B121-FCC7F25F81C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenApiSpecGenerator", "OpenApiSpecGenerator", "{6FAB1AE4-0180-414A-9CDD-29D939CCD995}"
+	ProjectSection(SolutionItems) = preProject
+		OpenApiSpecGenerator2\aspnetcorev2_inprocess.dll = OpenApiSpecGenerator2\aspnetcorev2_inprocess.dll
+		OpenApiSpecGenerator2\clrcompression.dll = OpenApiSpecGenerator2\clrcompression.dll
+		OpenApiSpecGenerator2\clrjit.dll = OpenApiSpecGenerator2\clrjit.dll
+		OpenApiSpecGenerator2\coreclr.dll = OpenApiSpecGenerator2\coreclr.dll
+		OpenApiSpecGenerator2\mscordaccore.dll = OpenApiSpecGenerator2\mscordaccore.dll
+		OpenApiSpecGenerator2\OpenApiSpecGenerator.exe = OpenApiSpecGenerator2\OpenApiSpecGenerator.exe
+		OpenApiSpecGenerator2\OpenApiSpecGenerator.pdb = OpenApiSpecGenerator2\OpenApiSpecGenerator.pdb
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4849B43-CF7F-430E-9B27-3B1590A92028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4849B43-CF7F-430E-9B27-3B1590A92028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4849B43-CF7F-430E-9B27-3B1590A92028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4849B43-CF7F-430E-9B27-3B1590A92028}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6FAB1AE4-0180-414A-9CDD-29D939CCD995} = {6E3A2075-AF9B-42A1-B121-FCC7F25F81C3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E676680-D865-4D0A-B104-9DA97037D158}
+	EndGlobalSection
+EndGlobal
